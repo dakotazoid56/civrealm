@@ -69,7 +69,7 @@ def get_action_from_readable_name(readable_action, action_keys):
     action = ''
     for j, char in enumerate(readable_action):
         if char == '_':
-            action += ' '
+            action += '_'
         elif char == ' ':
             action += '_'
         else:
